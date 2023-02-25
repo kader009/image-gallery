@@ -21,6 +21,7 @@ const GetPhoto = () => {
       <input type="text" className='form-control' onChange={(e) => setphoto(e.target.value)} value={photo}/> 
       <button className='btn btn-outline-dark mt-3' onClick={GetPhoto}>Search</button>
 
+
       <div className="container mt-5 ">
                 <div className="row text-center text-lg-start">
                     {picks.map((value, index) => {
